@@ -1,0 +1,31 @@
+*{margin:0;padding:0; text-decoration:none;}
+*
+/*搜索样式*/
+.sch{margin-left:15px;float:left;width:100%;z-index:2; margin-top:10px;}
+.showlist{width:150px;height:120px;margin-left:118px !important;margin-left:118px;border:1px #ccc solid;padding:0;display:block;margin-top:50px;  background:#FFFFFF;z-index:20; display:block;}
+.searchli{width:150px;margin:0; padding:0;text-decoration:none; list-style:outside none;float:left;display:block;}
+.nbr{width:100%;height:5px;float:left;display:block;clear:both;float:left; z-index:4;}
+/*美化表格*/
+ table {border: 1px solid #B1CDE3;padding:0;margin:0 auto;border-collapse: collapse;}  
+td {border: 1px solid #B1CDE3; background: #fff; font-size:14px;padding: 3px 3px 3px 8px;}  
+th{border: 1px solid #B1CDE3;font-weight:normal;}
+strong{font-weight:normal;}
+/*显示用户样式*/
+.before{float:left;margin-left:15px;display:block;z-index:8; margin-top:10px;}
+.clear{clear:both;height:1px;width:100%;display:block;}
+/*分页*/
+.page{clear:both;float:left;margin-left:15px;display:block;z-index:19; font:13px/1.5 verdana,arial;height:22px;text-align:center;}
+
+
+.pageinfo{font:14px;color:red;}
+
+.after{float:left;margin-left:0px;display:block;}
+
+/*添加用户*/
+
+
+.addbox .addform{float:left; margin:0px;}
+.addbox  .addform .addtable{margin:5px;}
+.addbox  .addform .addtable span{color:red;}
+.addbox  .addform strong{color:red;font-weight:700;font-size:12px;}
+

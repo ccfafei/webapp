@@ -1,0 +1,79 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>预约</title>
+</head>
+<LINK  href="/Public/home/style/common.css" type=text/css rel=stylesheet>
+<script language="javascript" src="/Public/home/js/jquery.js"></script>
+<SCRIPT  type="text/javascript" src="/Public/home/js/date/WdatePicker.js"></SCRIPT>
+<script language="javascript" src="/Public/home/js/check_gh.js" charset="utf-8"></script>
+
+<body>
+<div class="secbox">
+	<h1>网上预约挂号</h1>
+	<div class="view" style="display:none;"></div>
+	<DIV class="ghright border1">
+		<DIV class=secpath style="HEIGHT: 40px">网上预约挂号<A name=hao></A></DIV>
+		<DIV style="PADDING-LEFT: 90px; LINE-HEIGHT: 20px; HEIGHT: 45px">
+			<STRONG>温馨提示：您提交的个人信息将进行保密处理，祝您早日康复！<BR>
+　 
+　　　		&nbsp;请真实、准确的填写以下信息，才能<STRONG>成功</STRONG>挂号，按约就诊：
+			</STRONG> 
+		</DIV>
+		<TABLE style="MARGIN-LEFT: 30px" cellSpacing=3 cellPadding=0 width=600 border=0>
+			<FORM   method="post" name="meet_form"  id="ghform" action="<{:U('Home/Index/checkPost','','')}>"> 
+				<TBODY>
+					<TR>
+						<TD align=right width=136 height=30>
+							<FONT color=#ff0000>*</FONT> 患者姓名:&nbsp;&nbsp;		
+						</TD>
+					<TD width=461>
+							<INPUT  type="text" class="ghinput" maxLength=30 name=username id="uname" value="请输入您的姓名">
+							<strong id="usermsg"></strong>
+						</TD>
+					</TR>
+					<TR>
+						<TD align=right height=30>年龄:&nbsp;&nbsp;</TD>
+						<TD><INPUT class=ghinput maxLength=30 name=age id="age"></TD>
+					</TR>
+					<TR>
+						<TD align=right height=30>性别:&nbsp;&nbsp;</TD>
+						<TD>
+							<INPUT type=radio value="0" name=sex checked="checked">
+								男　
+							<INPUT type=radio value="1" name=sex>
+								女
+						</TD>
+					</TR>
+					<TR>
+						<TD align=right height=30>就诊科室:&nbsp;&nbsp;</TD>
+						<TD><INPUT class=ghinput readOnly value=胃肠专科 name=ks></TD>
+					</TR>
+					<TR>
+						<TD align=right height=30><FONT color=#ff0000>*</FONT> 联系电话:&nbsp;&nbsp;</TD>
+						<TD><INPUT class="ghinput" maxLength=30 name=tel id="tel" value="请输入手机或电话号码">
+							<strong id="telmsg"></strong></TD>
+					</TR>
+					<TR>
+						<TD align=right height=57>病情描述:&nbsp;&nbsp;</TD>
+						<TD><TEXTAREA style="WIDTH: 400px; HEIGHT: 50px" name=cont></TEXTAREA></TD>
+					</TR>
+					<TR>
+						<TD align=right height=30>就诊日期:&nbsp;&nbsp;</TD>
+						<td><input class=ghinput  name="yul"  onclick="WdatePicker();" onfocus="this.select()"  />
+						</td>
+					</TR>
+					<TR>
+						<TD align=right height=26>&nbsp;<input type="hidden" name="hostid" id="hid" value="4"/></TD>
+						<TD vAlign=bottom><INPUT type="submit" value=提交  id="sub"></TD>
+					</TR>
+			</FORM>
+			</TBODY>
+		</TABLE>
+	</DIV>
+	
+</div>
+
+</body>
+</html>

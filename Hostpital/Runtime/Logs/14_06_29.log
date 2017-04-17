@@ -1,0 +1,377 @@
+[ 2014-06-29T14:27:08+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.003519s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.011835s ]
+
+[ 2014-06-29T14:27:08+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002079s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002350s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001544s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001909s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.091710s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.091969s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001000s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000957s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000808s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001388s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004657s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001885s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2014-06-29T14:27:09+08:00 ] 127.0.0.1 /Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001528s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001792s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001096s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001290s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\myApp\ThinkPHP\Extend\Library\ORG\Util\Verify.class.php 第 78 行.
+
+[ 2014-06-29T14:27:18+08:00 ] 127.0.0.1 /Admin/Login/loginchk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001304s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000900s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001067s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.069231s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.013030s ]
+SQL: UPDATE `ts_user` SET `loginTime`=1404023238,`loginIP`='127.0.0.1' WHERE ( `username` = 'admin' ) [ RunTime:0.104596s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.025365s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025684s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001155s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001941s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001287s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001551s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006794s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001625s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001873s ]
+
+[ 2014-06-29T14:27:20+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002110s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002426s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001525s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001827s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021320s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021627s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000911s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000875s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000607s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001081s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004172s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001358s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001587s ]
+
+[ 2014-06-29T14:27:20+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001073s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001264s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000753s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000911s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 221 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 173 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010547s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010683s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000349s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000345s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000237s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000412s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001588s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000830s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000960s ]
+
+[ 2014-06-29T14:27:20+08:00 ] 127.0.0.1 /Admin/Index/left.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001830s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002030s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002806s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 221 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 173 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.044121s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044247s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000744s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000665s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000741s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002940s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000877s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000956s ]
+
+[ 2014-06-29T14:27:20+08:00 ] 127.0.0.1 /Admin/Index/mainfra.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001312s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001513s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000841s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001041s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 221 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 173 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007680s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007802s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000440s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000423s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000322s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000423s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001853s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000509s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000587s ]
+
+[ 2014-06-29T14:27:23+08:00 ] 127.0.0.1 /Admin/Guahao/showPatient.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001808s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002028s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001030s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001240s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.070460s ]
+SQL: SELECT `hid`,`name` FROM `ts_hostinfo`  [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `ts_meet` [ RunTime:0.009481s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_meet` LIMIT 1   [ RunTime:0.022282s ]
+SQL: SELECT * FROM `ts_meet` LIMIT 0,10   [ RunTime:0.001452s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.007454s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.013398s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.001440s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.001162s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.001204s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='4' ) LIMIT 1   [ RunTime:0.001496s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='4' ) LIMIT 1   [ RunTime:0.001541s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.002177s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.001463s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.001108s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.001048s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028617s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028828s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000882s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000691s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000506s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000812s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003263s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001059s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001208s ]
+
+[ 2014-06-29T14:27:25+08:00 ] 127.0.0.1 /Admin/Guahao/hostAdd/title/%E6%B7%BB%E5%8A%A0%E5%8C%BB%E9%99%A2%E4%BF%A1%E6%81%AF.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001624s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001819s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000825s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000934s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.003364s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( `hid` = 0 )  [ RunTime:0.000298s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\myApp\Hostpital\Lib\Action\Admin\GuahaoAction.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 23 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 27 行.
+NOTIC: [8] Undefined variable: content D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 33 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.034986s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035088s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000716s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000672s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000763s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002950s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002722s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002910s ]
+
+[ 2014-06-29T14:27:27+08:00 ] 127.0.0.1 /Admin/Guahao/hostList.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001902s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002087s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001507s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001689s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.003413s ]
+SQL: SELECT * FROM `ts_hostinfo` ORDER BY hid  [ RunTime:0.000498s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.033829s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.034027s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001347s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001313s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001210s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002525s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006960s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002937s ]
+
+[ 2014-06-29T14:27:29+08:00 ] 127.0.0.1 /Index/userinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001821s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002008s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000921s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.017815s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_user` LIMIT 1   [ RunTime:0.000836s ]
+SQL: SELECT * FROM `ts_user` LIMIT 0,10   [ RunTime:0.000392s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.021217s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='37' [ RunTime:0.019773s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='38' [ RunTime:0.000405s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='39' [ RunTime:0.000338s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='48' [ RunTime:0.000329s ]
+NOTIC: [8] Undefined index: level D:\wamp\www\myApp\Hostpital\Lib\Action\Admin\IndexAction.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.049126s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.049470s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001999s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001911s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001555s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001298s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007308s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002121s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002360s ]
+
+[ 2014-06-29T14:27:32+08:00 ] 127.0.0.1 /Index/useraddForm.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000914s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001014s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001374s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001557s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.016536s ]
+SQL: SELECT `remark`,`id` FROM `ts_role`  [ RunTime:0.001111s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.037350s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.037674s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000700s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000664s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000589s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000802s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003003s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000997s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001093s ]
+
+[ 2014-06-29T14:27:33+08:00 ] 127.0.0.1 /Index/mypassword.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002058s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002224s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000916s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001022s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.002573s ]
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' )  [ RunTime:0.000402s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.043932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044160s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002205s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002141s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001640s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001494s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008155s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002905s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003097s ]
+
+[ 2014-06-29T14:27:35+08:00 ] 127.0.0.1 /Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001194s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001343s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000891s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001007s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007990s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008130s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000749s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000667s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000568s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000719s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002939s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000804s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000884s ]
+
+[ 2014-06-29T14:27:36+08:00 ] 127.0.0.1 /Admin/Rbac/showRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001832s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002824s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001161s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001321s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.011313s ]
+SQL: SELECT * FROM `ts_role`  [ RunTime:0.000336s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026970s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000694s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000667s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000569s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000731s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002894s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000808s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000887s ]
+
+[ 2014-06-29T14:27:37+08:00 ] 127.0.0.1 /Admin/Rbac/addNode.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001877s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002070s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001676s ]
+SQL: SHOW COLUMNS FROM `ts_node` [ RunTime:0.016303s ]
+SQL: SELECT `id`,`name`,`pid`,`title` FROM `ts_node`  [ RunTime:0.001619s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.027852s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028017s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000666s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000563s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000717s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002983s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000829s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000907s ]
+

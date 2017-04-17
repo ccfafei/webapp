@@ -1,0 +1,60 @@
+[ 2013-11-29T10:43:23+08:00 ] 127.0.0.1 /Admin/Login/loginchk
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-11-29T10:44:02+08:00 ] 127.0.0.1 /Admin/Index/checkPassword
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000143s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.002757s ]
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.001124s ]
+
+[ 2013-11-29T10:44:04+08:00 ] 127.0.0.1 /Admin/Index/checkPassword
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000373s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.006224s ]
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.000458s ]
+
+[ 2013-11-29T10:44:06+08:00 ] 127.0.0.1 /Admin/Index/checkPassword
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000176s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000240s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.003589s ]
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.001633s ]
+
+[ 2013-11-29T10:44:08+08:00 ] 127.0.0.1 /Admin/Index/checkPassword
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000202s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000268s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.004712s ]
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.001769s ]
+
+[ 2013-11-29T10:44:09+08:00 ] 127.0.0.1 /Admin/Index/checkPassword
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000235s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.003224s ]
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.001338s ]
+
+[ 2013-11-29T10:44:11+08:00 ] 127.0.0.1 /Admin/Index/checkPassword
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000198s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000261s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.004694s ]
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.002054s ]
+
+[ 2013-11-29T10:44:14+08:00 ] 127.0.0.1 /Admin/Index/checkPassword
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.002484s ]
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.001078s ]
+
+[ 2013-11-29T10:44:14+08:00 ] 127.0.0.1 /Admin/Index/checkPassword
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000175s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.003570s ]
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) AND ( `password` = 'd41d8cd98f00b204e9800998ecf8427e' )  [ RunTime:0.001144s ]
+

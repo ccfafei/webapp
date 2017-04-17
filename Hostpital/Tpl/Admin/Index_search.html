@@ -1,0 +1,60 @@
+<html>
+<head>
+<title>
+	用户搜索
+</title>
+<Mata http-equiv="Content=Type" content="text/html;charset=utf-8">
+<load href="/Public/Js/Jquery/jquery.js" />
+<load href="/Public/css/showstatus.css"/>
+<load href="/Public/css/showlist.css"/>
+<script type="text/javascript" src="__PUBLIC__/js/delConfirm.js" charset="utf-8"></script>
+<script type="text/javascript" src="__PUBLIC__/js/usermodify.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/useradd.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/search.js"></script>
+<script type="text/javascript" >var searchURL ='<{:U("Admin/Index/search/","","")}>'</script>
+<script type="text/javascript" >var modifyURL ='<{:U("Admin/Index/modifyUser/","","")}>'</script>
+<script type="text/javascript" >var delURL ='<{:U("Admin/Index/delUser/","","")}>'</script>
+<script type="text/javascript" >var checknameURL ='<{:U("Admin/Index/checkname/","","")}>'</script>
+<!--<script type="text/javascript" >var AdsearchURL ='<{:U("Admin/Index/Adsearch/","","")}>'</script>-->
+<script type="text/javascript" >var searchURL ='<{:U("Admin/Index/search/","","")}>'</script>
+
+<body>
+  
+
+      <div class="sch" style="position:relative">   请输入用户名:<input type="text" name="search" class="search" style="position:relative" ><button class="qbtn" name="qbtn">搜索</button> 
+	  </div>
+      
+     
+    <div class="after" >
+	  <table width="1100" border="1" cellpadding="0" cellspacing="0"  >
+	        <tr></tr>
+			<tr style="background:#cededd"><th>ID</th><th>用户名</th><th>姓名</th><th>性别</th><th>年龄</th><th>登录时间</th><th>登录ip</th><th>账号状态</th><th>操作</th></tr>
+
+		<form method="post"></form>
+		<volist name="resultList" id="vo" >
+		<tr>
+			<td width="5%"><input type="hidden" name=uid id="sid" value="<{$vo.uid}>"/><strong ><{$vo.uid}></strong></td>
+			<td width="10%"><strong> <{$vo.username}></strong></td>
+			<td width="10%"><input class="modInput" id="realname" value=""/><strong  class="iv"><{$vo.realname}></strong></td>
+			<td width="10%">
+				<strong  >
+					<if condition="$vo['level'] eq 1">系统管理员</if>
+					<if condition="$vo['level'] eq 2">后台管理员</if>
+					<if condition="$vo['level'] eq 3">网络咨询员</if>
+				</strong>
+			</td>
+			<td width="10%"><strong ><{$vo.role_id}></strong></td>
+			<td width="15%"><strong ><{$vo.addTime|date='Y-m-d H:i:s',###}></strong></td>
+			<td width="15%"><strong ><{$vo.modifyTime|date='Y-m-d H:i:s',###}></strong></td>
+			
+			<td width="10%"><strong ><if condition="$vo.status eq 1">正常  <else/> 停用</if></strong></td>
+			<td width="10%"><button id="delbtn"  onclick="delConfirm(<{$vo.uid}>)">删除</button>&nbsp;&nbsp;<button class="modbtn">修改</button></td>
+		</tr>
+		</volist>
+		</form>
+	  </table>
+	  <br>
+ </div> 
+    
+ </body>
+ </html>

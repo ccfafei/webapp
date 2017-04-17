@@ -1,0 +1,90 @@
+.pagerInfo {
+    display: block;
+    clear: both;
+    text-align:center;
+    height:30px;
+    margin:5px 0px;
+    overflow:hidden;
+    color:#39579E;
+}
+.pagerInfo span{
+    display: block;
+    float: left;
+border: 1px solid rgb(156, 207, 101);
+margin: 0px 2px 3px 0px;
+    padding:2px 5px;
+    line-height:20px;
+    text-align:center;
+    height:20px;
+    color:#39579E;
+}
+.pagerInfo a{
+    display: block;
+    float: left;
+border: 1px solid rgb(156, 207, 101);
+    margin:0px 2px;
+    padding:2px 5px;
+    text-align:center;
+    height:20px;
+    line-height:20px;
+    text-decoration: none;
+    color:#39579E;
+}
+.pagerInfo a:hover{
+    display: block;
+    float: left;
+    border:1px solid #6593CF;
+    margin:0px 2px;
+    padding:2px 5px;
+    text-align:center;
+    text-decoration:none;
+    line-height:20px;
+    height:20px;
+    background-color:#DDEEFF;
+    color:#39579E;
+}
+.pagerInfo strong{
+    display: block;
+    float: left;
+    border: 1px solid rgb(156, 207, 101);
+    margin:0px 2px;
+    padding:2px 5px;
+    text-align:center;
+    text-decoration:none;
+    line-height:20px;
+    height:20px;
+    background-color:rgb(156, 207, 101);
+    color:#39579E;
+}
+.pagerInfo strong a {
+    display: block;
+    float: left;
+    color:#39579E;
+}
+.goto {
+    display: block;
+    float: left;
+border: 1px solid rgb(156, 207, 101);
+    width:30px;
+    height:25px;
+    color:#39579E;
+    font-weight:bold;
+    cursor: pointer;
+    background-color:rgb(156, 207, 101);
+    color:#FFF;
+}
+#gotoPage{
+    display: block;
+    float: left;
+border: 1px solid rgb(156, 207, 101);
+    width:40px;
+    height:20px;
+    margin:0px 2px 3px 0px;
+    background-color:rgb(156, 207, 101);
+    font-size:14px;
+    font-family:Arial;
+    color:red;
+    font-weight:bold;
+    margin:0px 2px;
+    padding:2px;
+}

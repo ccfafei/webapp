@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items list="true">
+    <item>
+        <approve_status>onsale</approve_status>
+        <cid>1512</cid>
+        <delist_time>2010-05-25 12:04:33</delist_time>
+        <has_discount>true</has_discount>
+        <has_invoice>true</has_invoice>
+        <has_showcase>false</has_showcase>
+        <has_warranty>true</has_warranty>
+        <iid>7b6308161395b7ced01b0633dc8b1c87</iid>
+        <is_ex>false</is_ex>
+        <is_taobao>true</is_taobao>
+        <list_time>2010-05-11 12:04:33</list_time>
+        <modified>2010-05-11 12:04:33</modified>
+        <nick>tbtest1063</nick>
+        <num>5</num>
+        <num_iid>1489589070</num_iid>
+        <outer_id>outer_test</outer_id>
+    </item>
+</items>

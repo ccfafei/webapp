@@ -1,0 +1,385 @@
+* {
+    margin:0;
+    padding:0;
+}
+
+img {
+    border:0;
+}
+
+body {
+    font-size: 13px;
+     color:#094D13;
+    /*background-color: #A6F4B1;*/
+    margin:5px;
+}
+
+a {
+    font-size: 13px;
+    color:#F60;
+}
+a:hover {
+    text-decoration: none;
+    color: #06F;
+}
+.page_right_area {
+    display:block;
+    clear: both;
+    border: 1px solid #B1CDE3;
+    background-color: #FFF;
+}
+.page_right_area div.title {
+    display: block;
+    clear: both;
+    height: 30px; 
+    background-repeat: repeat-x;
+    border-bottom: 1px solid #B1CDE3;
+    overflow:hidden;
+}
+.page_right_area div.title span {
+    display: block;
+    float:left;
+    height: 30px;
+    width: 30px;
+    background-image: url(../images/main_title.gif);
+    background-repeat: no-repeat;
+    overflow:hidden;
+}
+.page_right_area div.title strong{
+    display:block;
+    float: left;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+.page_right_area div.content {
+    display: block;
+    clear: both;
+    margin: 5px;
+    line-height: 22px;
+    overflow: auto;
+}
+.page_right_area div.content p {
+    display:block;
+    clear: both;
+    font-size: 13px;
+    line-height: 25px;
+}
+.page_right_area div.content a {
+    font-size: 13px;
+}
+.title_options h5 {
+    display: block;
+    float: left;
+    margin-right:5px;
+    width: 100px;
+    line-height: 25px;
+    text-align: center;
+    padding:0px 5px;
+    height: 25px;
+    border: 1px solid #6593CF;
+    border-bottom: 0;
+    background-color: #FFF;
+    font-size: 14px;
+    font-weight: bold;
+}
+.title_options h5.no_background {
+    background: none;
+    cursor: pointer;
+}
+
+.title_options h5.no_background a {
+    font-size: 14px;
+    font-weight: bold;
+    color:#3C5AA0;
+    text-decoration: none;
+}
+.title_options h5.no_background a:hover {
+    font-size: 14px;
+    font-weight: bold;
+    color:#3C5AA0;
+    text-decoration: underline;
+}
+.strong_tr{
+    font-weight: bolder;
+    color: black;
+}
+.strong_gray{
+    font-weight: bolder;
+    color: rgb(162, 155, 155);
+}
+/*用户操作消息提示页样式[开始]*/
+.msg_area {
+    display:block;
+    clear: both;
+    margin: 5px;
+    height: 110px;
+    line-height: 25px;
+    font-size: 14px;
+    overflow: hidden;
+}
+.msg_message {
+    display: block;
+    float:left;
+    margin: 5px;
+    font-size: 14px;
+    line-height: 25px;
+    overflow: hidden;
+}
+.msg_right {
+    border: 1px solid #51EC68;
+    background-color: #CAF9D1;
+    color:#39579E;
+}
+.coolbg {
+    border: none;
+    border-right: 1px solid #ACACAC;
+    border-bottom: 1px solid #ACACAC;
+    padding: 2px;
+    padding-right: 5px;
+    padding-left: 5px;
+    background: #CCC url(../images/allbtbg2.gif);
+    cursor: pointer;
+    text-decoration: none;
+}
+.msg_warning{
+    border: 1px solid #52BF00;
+    background-color: #E6FFD2;
+    color:#009900;
+}
+.msg_wrong {
+    border: 1px solid #FF9900;
+    background-color: #FFFFCC;
+    color:#FF6600;
+}
+.msg_message p {
+    display: block;
+    clear: both;
+    text-decoration: underline;
+}
+.msg_message a{
+    font-size: 14px;
+    text-decoration: underline;
+    color:blue;
+}
+.msg_status_right {
+    display: block;
+    float:left;
+    width:100px;
+    height: 100px;
+    margin: 5px;
+    background-image: url(../images/get_message.png);
+    background-position: -110px 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.msg_status_wrong {
+    display: block;
+    float:left;
+    width:100px;
+    height: 100px;
+    margin: 5px;
+    background-image: url(../images/get_message.png);
+    background-position: -220px 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+.msg_status_warning {
+    display: block;
+    float:left;
+    width:100px;
+    height: 100px;
+    margin: 5px;
+    background-image: url(../images/get_message.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/*用户操作消息提示页样式[结束]*/
+
+/*正文部分样式表开始*/
+.body_table_bg {
+    background-color: #B1CDE3;
+    margin-bottom: 5px;
+}
+.body_table_bg td, .body_table_bg th {
+    padding:3px;
+    background-color: #FFF;
+}
+.body_table_bg input {
+    width:400px;
+    border:1px solid #B1CDE3;
+    padding: 1px;
+    height:20px;
+    color:#39579E;
+}
+.body_table_bg textarea {
+    width:400px;
+    border:1px solid #88C4FF;
+    background-color: #DDEEFF;
+    color:#39579E;
+}
+.body_table_bg input.submit {
+    background:#B2DDEE;
+    width:60px;
+    height:24px;
+    font-size: 13px;
+    cursor: pointer;
+    padding-top:2px;
+}
+.body_table_bg input.ckbosten{
+    width:15px;
+    vertical-align: text-bottom; 
+}
+.body_table_bg input.auto {
+    width:auto;
+    height:24px;
+    font-size: 13px;
+    cursor: pointer;
+    padding-top:2px;
+}
+.body_table_bg input.submit_long {
+    width: auto;
+    height:24px;
+    font-size: 13px;
+    cursor: pointer;
+    padding-top:2px;
+}
+.input_strong {
+    border:1px solid #FF6600;
+    background-color: #FFDDDD;
+}
+.font_strong {
+    color:orange;
+}
+.page_right_area div.content table td.titleTr {
+    background-color:#CAF9D1;
+}
+.one{
+    display: block;
+    clear:both;
+    margin:0px;
+    overflow: hidden;
+}
+.two {
+    display: block;
+    clear:both;
+    margin-left:20px;
+    overflow: hidden;
+}
+.three {
+    display: block;
+    clear: both;
+    margin-left:40px;
+    overflow: hidden;
+}
+.four {
+    display: block;
+    float:left;
+    margin-left:60px;
+    width:90%;
+    height: auto;
+    border:1px solid #DDEEFF;
+    padding:2px;
+    overflow: hidden;
+}
+.one input, .two input, .three input, .four input {
+    width: 20px;
+}
+.four ul {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.four ul li {
+    display: block;
+    list-style: none;
+    float: left;
+    margin-right: 20px;
+}
+.font_gray {
+    color:gray;
+}
+.row_over_bg td{
+    background-color: #FFE9B9;
+}
+.row_out_bg td{
+    background-color: #FFF;
+}
+.ck_select{
+    float: left;
+    min-width:345px;
+    padding-right: 10px;
+    padding-top:2px;
+}
+/*正文部分样式表结束*/
+
+.welcome_info {
+    width: 800px;
+    margin:10px;
+    background-color: #CCC;
+}
+.welcome_info th {
+    background-color: #DDD;
+}
+.welcome_info td {
+    background-color: #FFF;
+    text-align:left;
+    font-size:12px;
+}
+
+/*特殊ID配置样式表开始*/
+#keyclass ,#keyname,#keywords {
+    width:150px;
+}
+#keyid,#keyid2, #keypic1, #keypic2{width: 50px;}
+#Fsort {
+    width:50px;
+}
+#FaddTime {
+    width: 150px;
+}
+#keytime1,#keytime2{width:180px;}
+#FlastTime {
+    width:150px;
+}
+input.width50 {
+    width: 50px;
+}
+input.width100 {
+    width: 100px;
+}
+input.width150 {
+    width: 150px;
+}
+input.width_auto {
+    width:auto;
+}
+.border_color_strong {
+    border:2px dashed red;
+}
+.picture_list {
+    background-color: #FFF;
+}
+.next_select_with {
+    display: inline-block;
+    width: 150px;
+    margin-right: 10px;
+}
+.resource_record{
+    width: 500px;
+    height:100px;
+    border: 1px dashed gray;
+    overflow:auto
+}
+a.green {
+    color:#009900;
+}
+.green_front{
+    color: green;
+}
+.red_front{
+    color: red;
+}
+/*特殊ID配置样式表结束*/

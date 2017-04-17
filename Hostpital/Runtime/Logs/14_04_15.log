@@ -1,0 +1,995 @@
+[ 2014-04-15T20:01:38+08:00 ] 127.0.0.1 /
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001813s ]
+
+[ 2014-04-15T20:01:38+08:00 ] 127.0.0.1 /Admin/Login/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002655s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003015s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002295s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011580s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011758s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000822s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000731s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001180s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001244s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004463s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001127s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001405s ]
+
+[ 2014-04-15T20:01:39+08:00 ] 127.0.0.1 /Login/verify
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000649s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000762s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000463s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [8] A session had already been started - ignoring session_start() D:\wamp\www\myApp\ThinkPHP\Extend\Library\ORG\Util\Verify.class.php 第 78 行.
+
+[ 2014-04-15T20:16:26+08:00 ] 127.0.0.1 /Admin/Login/loginchk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001636s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001810s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000934s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001109s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.082446s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000540s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.115821s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.116253s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001915s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001959s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001144s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001617s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007326s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001979s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002221s ]
+
+[ 2014-04-15T20:16:39+08:00 ] 127.0.0.1 /Admin/Login/loginchk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001410s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001637s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001405s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.009161s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000869s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011867s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012106s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001378s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001052s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000695s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000788s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004537s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000827s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000936s ]
+
+[ 2014-04-15T20:17:08+08:00 ] 127.0.0.1 /Admin/Login/loginchk
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001094s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001225s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000827s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000981s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.004141s ]
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'admin' ) LIMIT 1   [ RunTime:0.000698s ]
+SQL: UPDATE `ts_user` SET `loginTime`=1397564228,`loginIP`='127.0.0.1' WHERE ( `username` = 'admin' ) [ RunTime:0.364669s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.026409s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.026764s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001371s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001459s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.002081s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001747s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007543s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001851s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002114s ]
+
+[ 2014-04-15T20:17:10+08:00 ] 127.0.0.1 /Admin/Index/index.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001184s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001376s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001646s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013851s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014030s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000735s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000724s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000502s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000684s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003006s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000670s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000773s ]
+
+[ 2014-04-15T20:17:10+08:00 ] 127.0.0.1 /Admin/Index/top.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000848s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000705s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000827s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 221 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 173 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.007862s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007982s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000504s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000492s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000399s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000572s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002272s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000673s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000772s ]
+
+[ 2014-04-15T20:17:10+08:00 ] 127.0.0.1 /Admin/Index/left.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001510s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001982s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001304s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 221 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 173 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028101s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028302s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001071s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000972s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000703s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000650s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003834s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000687s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000801s ]
+
+[ 2014-04-15T20:17:10+08:00 ] 127.0.0.1 /Admin/Index/mainfra.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006191s ]
+INFO: [ route_check ] --END-- [ RunTime:0.006528s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000961s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+NOTIC: [8] Constant THEME_NAME already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 221 行.
+NOTIC: [8] Constant THEME_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 172 行.
+NOTIC: [8] Constant APP_TMPL_PATH already defined D:\wamp\www\myApp\ThinkPHP\Lib\Core\View.class.php 第 173 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012677s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012933s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000735s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001010s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001374s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001795s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005563s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001696s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001875s ]
+
+[ 2014-04-15T20:17:15+08:00 ] 127.0.0.1 /Admin/Guahao/showPatient.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002216s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002521s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002132s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002500s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.040173s ]
+SQL: SELECT `hid`,`name` FROM `ts_hostinfo`  [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `ts_meet` [ RunTime:0.005797s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_meet` LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT * FROM `ts_meet` LIMIT 0,10   [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.005913s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000483s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000415s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='4' ) LIMIT 1   [ RunTime:0.000393s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='4' ) LIMIT 1   [ RunTime:0.000602s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000737s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000456s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000623s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000538s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.028692s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029202s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001326s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001108s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000637s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005571s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001055s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001218s ]
+
+[ 2014-04-15T20:17:17+08:00 ] 127.0.0.1 /Admin/Guahao/hostAdd/title/%E6%B7%BB%E5%8A%A0%E5%8C%BB%E9%99%A2%E4%BF%A1%E6%81%AF.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.006505s ]
+INFO: [ route_check ] --END-- [ RunTime:0.007135s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001946s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002252s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.006902s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( `hid` = 0 )  [ RunTime:0.000510s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\myApp\Hostpital\Lib\Action\Admin\GuahaoAction.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 23 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 27 行.
+NOTIC: [8] Undefined variable: content D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 33 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.039512s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039714s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002736s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002144s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000942s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007500s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001370s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001626s ]
+
+[ 2014-04-15T20:17:18+08:00 ] 127.0.0.1 /Admin/Guahao/hostList.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001177s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001321s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000726s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000859s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.003130s ]
+SQL: SELECT * FROM `ts_hostinfo` ORDER BY hid  [ RunTime:0.000513s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020954s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021495s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000641s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000543s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000422s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002468s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001084s ]
+
+[ 2014-04-15T20:17:18+08:00 ] 127.0.0.1 /Admin/Guahao/hostAdd/title/%E6%B7%BB%E5%8A%A0%E5%8C%BB%E9%99%A2%E4%BF%A1%E6%81%AF.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001154s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.004210s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( `hid` = 0 )  [ RunTime:0.000435s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\myApp\Hostpital\Lib\Action\Admin\GuahaoAction.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 23 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 27 行.
+NOTIC: [8] Undefined variable: content D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 33 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019046s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019296s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001477s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001679s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000656s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000930s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005190s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.003749s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003921s ]
+
+[ 2014-04-15T20:17:20+08:00 ] 127.0.0.1 /Admin/Guahao/hostList.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001242s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001433s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001687s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002010s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.003000s ]
+SQL: SELECT * FROM `ts_hostinfo` ORDER BY hid  [ RunTime:0.001010s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012144s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012370s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000548s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000690s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000722s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002977s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005421s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001072s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001222s ]
+
+[ 2014-04-15T20:17:22+08:00 ] 127.0.0.1 /Index/userinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002676s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003111s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002418s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002715s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.006792s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_user` LIMIT 1   [ RunTime:0.000726s ]
+SQL: SELECT * FROM `ts_user` LIMIT 0,10   [ RunTime:0.000766s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.040755s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='37' [ RunTime:0.004262s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='38' [ RunTime:0.000737s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='39' [ RunTime:0.000704s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='48' [ RunTime:0.000697s ]
+NOTIC: [8] Undefined index: level D:\wamp\www\myApp\Hostpital\Lib\Action\Admin\IndexAction.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.038977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.039258s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000794s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000575s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000374s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000634s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002747s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001117s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001235s ]
+
+[ 2014-04-15T20:17:23+08:00 ] 127.0.0.1 /Index/useraddForm.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002118s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002423s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001676s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001952s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.004518s ]
+SQL: SELECT `remark`,`id` FROM `ts_role`  [ RunTime:0.001328s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.163281s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.163642s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001448s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001955s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001629s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002624s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.008612s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001772s ]
+INFO: [ view_end ] --END-- [ RunTime:0.002043s ]
+
+[ 2014-04-15T20:17:26+08:00 ] 127.0.0.1 /Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001294s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001480s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002060s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.017263s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017462s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000888s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000854s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001167s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002361s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006015s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001292s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001506s ]
+
+[ 2014-04-15T20:17:28+08:00 ] 127.0.0.1 /Admin/Guahao/showPatient.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002867s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003192s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001053s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001228s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.002518s ]
+SQL: SELECT `hid`,`name` FROM `ts_hostinfo`  [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `ts_meet` [ RunTime:0.005182s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_meet` LIMIT 1   [ RunTime:0.000326s ]
+SQL: SELECT * FROM `ts_meet` LIMIT 0,10   [ RunTime:0.000670s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.002829s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000416s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000329s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000424s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000383s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='4' ) LIMIT 1   [ RunTime:0.000317s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='4' ) LIMIT 1   [ RunTime:0.000283s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000291s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000282s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000279s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000288s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020953s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021157s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001165s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000760s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000570s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000809s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003847s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000635s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000775s ]
+
+[ 2014-04-15T20:17:46+08:00 ] 127.0.0.1 /Admin/Guahao/showPatient.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.003292s ]
+INFO: [ route_check ] --END-- [ RunTime:0.003737s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001072s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001260s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.003239s ]
+SQL: SELECT `hid`,`name` FROM `ts_hostinfo`  [ RunTime:0.000341s ]
+SQL: SHOW COLUMNS FROM `ts_meet` [ RunTime:0.004492s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_meet` LIMIT 1   [ RunTime:0.000401s ]
+SQL: SELECT * FROM `ts_meet` LIMIT 0,10   [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.002682s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000508s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000307s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000299s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000308s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='4' ) LIMIT 1   [ RunTime:0.000552s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='4' ) LIMIT 1   [ RunTime:0.000346s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000349s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000322s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000313s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014410s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014549s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000690s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000506s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000410s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000583s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002451s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001486s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001740s ]
+
+[ 2014-04-15T20:17:48+08:00 ] 127.0.0.1 /Index/userinfo.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002130s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002542s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001318s ]
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.003261s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_user` LIMIT 1   [ RunTime:0.000418s ]
+SQL: SELECT * FROM `ts_user` LIMIT 0,10   [ RunTime:0.000432s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.003640s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='37' [ RunTime:0.000861s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='38' [ RunTime:0.001438s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='39' [ RunTime:0.001438s ]
+NOTIC: [8] Undefined index: mapping_order D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 188 行.
+NOTIC: [8] Undefined index: mapping_limit D:\wamp\www\myApp\ThinkPHP\Extend\Model\RelationModel.class.php 第 189 行.
+SQL: SELECT b.* FROM ts_role_user AS a, ts_role AS b WHERE a.role_id = b.id AND a. user_id='48' [ RunTime:0.000390s ]
+NOTIC: [8] Undefined index: level D:\wamp\www\myApp\Hostpital\Lib\Action\Admin\IndexAction.class.php 第 53 行.
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013620s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013739s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000485s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001276s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000371s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000549s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002925s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000556s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000639s ]
+
+[ 2014-04-15T20:17:52+08:00 ] 127.0.0.1 /Admin/Guahao/showPatient.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.000768s ]
+INFO: [ route_check ] --END-- [ RunTime:0.000872s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000586s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000682s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.005621s ]
+SQL: SELECT `hid`,`name` FROM `ts_hostinfo`  [ RunTime:0.000400s ]
+SQL: SHOW COLUMNS FROM `ts_meet` [ RunTime:0.004670s ]
+SQL: SELECT COUNT(*) AS tp_count FROM `ts_meet` LIMIT 1   [ RunTime:0.000337s ]
+SQL: SELECT * FROM `ts_meet` LIMIT 0,10   [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.004627s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.001344s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000414s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000300s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000471s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='4' ) LIMIT 1   [ RunTime:0.000351s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='4' ) LIMIT 1   [ RunTime:0.000287s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000278s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.000328s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='2' ) LIMIT 1   [ RunTime:0.001265s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( 1=1 AND hid='1' ) LIMIT 1   [ RunTime:0.000451s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.016803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016949s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001215s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.002814s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000705s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000674s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006011s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000889s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000982s ]
+
+[ 2014-04-15T20:17:53+08:00 ] 127.0.0.1 /Admin/Guahao/hostAdd/title/%E6%B7%BB%E5%8A%A0%E5%8C%BB%E9%99%A2%E4%BF%A1%E6%81%AF.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002386s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002804s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001727s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002055s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.003979s ]
+SQL: SELECT * FROM `ts_hostinfo` WHERE ( `hid` = 0 )  [ RunTime:0.000466s ]
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\myApp\Hostpital\Lib\Action\Admin\GuahaoAction.class.php 第 95 行.
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined variable: name D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 23 行.
+NOTIC: [8] Undefined variable: link D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 27 行.
+NOTIC: [8] Undefined variable: content D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\d6d13ef68be8866dafaa3cb7d1858f35.php 第 33 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019552s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019772s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000765s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000724s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000549s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000837s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003301s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000943s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001079s ]
+
+[ 2014-04-15T20:17:54+08:00 ] 127.0.0.1 /Admin/Guahao/hostList.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001757s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002092s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001502s ]
+SQL: SHOW COLUMNS FROM `ts_hostinfo` [ RunTime:0.003049s ]
+SQL: SELECT * FROM `ts_hostinfo` ORDER BY hid  [ RunTime:0.000434s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.010254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010377s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000468s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000410s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000312s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000474s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001929s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000614s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000728s ]
+
+[ 2014-04-15T20:30:57+08:00 ] 127.0.0.1 /Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001533s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001726s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001047s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001214s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.011936s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012299s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001469s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001851s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.001701s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001030s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.007924s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001231s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001419s ]
+
+[ 2014-04-15T20:30:58+08:00 ] 127.0.0.1 /Admin/Rbac/showRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001953s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002235s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001626s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001852s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.005777s ]
+SQL: SELECT * FROM `ts_role`  [ RunTime:0.000431s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.057071s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.057306s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000791s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000793s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000693s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001019s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004071s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001201s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001364s ]
+
+[ 2014-04-15T20:31:02+08:00 ] 127.0.0.1 /Admin/Rbac/modifyAcess/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001942s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002225s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001738s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.004549s ]
+SQL: SELECT `remark` FROM `ts_role` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000585s ]
+SQL: SHOW COLUMNS FROM `ts_node` [ RunTime:0.018441s ]
+SQL: SELECT `id`,`name`,`pid`,`title` FROM `ts_node` ORDER BY sort  [ RunTime:0.000878s ]
+SQL: SHOW COLUMNS FROM `ts_access` [ RunTime:0.026594s ]
+SQL: SELECT `node_id` FROM `ts_access` WHERE ( `role_id` = 1 )  [ RunTime:0.000584s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 23 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 23 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019702s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000830s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000750s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000578s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000935s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003480s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001038s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001198s ]
+
+[ 2014-04-15T20:31:04+08:00 ] 127.0.0.1 /Admin/Rbac/showRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.004441s ]
+INFO: [ route_check ] --END-- [ RunTime:0.004743s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001841s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.003702s ]
+SQL: SELECT * FROM `ts_role`  [ RunTime:0.000394s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.014005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014200s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001036s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001130s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000755s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.002758s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006172s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001011s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001157s ]
+
+[ 2014-04-15T20:31:10+08:00 ] 127.0.0.1 /Admin/Rbac/modifyAcess/id/2.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002209s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002533s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000908s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001068s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.003727s ]
+SQL: SELECT `remark` FROM `ts_role` WHERE ( `id` = 2 ) LIMIT 1   [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `ts_node` [ RunTime:0.005461s ]
+SQL: SELECT `id`,`name`,`pid`,`title` FROM `ts_node` ORDER BY sort  [ RunTime:0.000581s ]
+SQL: SHOW COLUMNS FROM `ts_access` [ RunTime:0.003757s ]
+SQL: SELECT `node_id` FROM `ts_access` WHERE ( `role_id` = 2 )  [ RunTime:0.000457s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 23 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 23 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021682s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021846s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.002443s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000946s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000597s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000916s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.005753s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001094s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001240s ]
+
+[ 2014-04-15T20:31:13+08:00 ] 127.0.0.1 /Admin/Rbac/showRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002208s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002500s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000914s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001092s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.003713s ]
+SQL: SELECT * FROM `ts_role`  [ RunTime:0.000495s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.020004s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020187s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000762s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000742s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000577s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000883s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003347s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000975s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001115s ]
+
+[ 2014-04-15T20:31:14+08:00 ] 127.0.0.1 /Admin/Rbac/addNode.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001398s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001600s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001358s ]
+SQL: SHOW COLUMNS FROM `ts_node` [ RunTime:0.009928s ]
+SQL: SELECT `id`,`name`,`pid`,`title` FROM `ts_node`  [ RunTime:0.000426s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.012584s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012693s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000476s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000466s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000340s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000560s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.002072s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000580s ]
+INFO: [ view_end ] --END-- [ RunTime:0.000681s ]
+
+[ 2014-04-15T20:37:14+08:00 ] 127.0.0.1 /Admin/Rbac/addRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.002111s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002405s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001888s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.021825s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022157s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001598s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001294s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000980s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001383s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.006162s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.002917s ]
+INFO: [ view_end ] --END-- [ RunTime:0.003175s ]
+
+[ 2014-04-15T20:37:16+08:00 ] 127.0.0.1 /Admin/Rbac/showRole.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001204s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001429s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000932s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001120s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.003447s ]
+SQL: SELECT * FROM `ts_role`  [ RunTime:0.000916s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.009683s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009957s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000932s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.001225s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000648s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.001262s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004518s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000801s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001008s ]
+
+[ 2014-04-15T20:37:17+08:00 ] 127.0.0.1 /Admin/Rbac/modifyAcess/id/1.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001644s ]
+INFO: [ route_check ] --END-- [ RunTime:0.001950s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000855s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001054s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.003962s ]
+SQL: SELECT `remark` FROM `ts_role` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000539s ]
+SQL: SHOW COLUMNS FROM `ts_node` [ RunTime:0.004570s ]
+SQL: SELECT `id`,`name`,`pid`,`title` FROM `ts_node` ORDER BY sort  [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `ts_access` [ RunTime:0.004479s ]
+SQL: SELECT `node_id` FROM `ts_access` WHERE ( `role_id` = 1 )  [ RunTime:0.000566s ]
+INFO: [ view_parse ] --START--
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 23 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 23 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 30 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+NOTIC: [8] Undefined index: access D:\wamp\www\myApp\Hostpital\Runtime\Cache\Admin\552cea68f1c8dddfa306dddd88445760.php 第 35 行.
+INFO: ParseTemplate Behavior ::run [ RunTime:0.022693s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.022947s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001342s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000928s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000955s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000834s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.004538s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000958s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001098s ]
+
+[ 2014-04-15T20:37:31+08:00 ] 127.0.0.1 /Admin/Rbac/accessHandle.html
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001871s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002166s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.001236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001554s ]
+SQL: SHOW COLUMNS FROM `ts_access` [ RunTime:0.004416s ]
+SQL: DELETE FROM `ts_access` WHERE ( `role_id` = 1 ) [ RunTime:0.000571s ]
+SQL: SHOW COLUMNS FROM `ts_node` [ RunTime:0.004441s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 47 ) LIMIT 1   [ RunTime:0.000625s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,47,1,0) [ RunTime:0.008577s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 25 ) LIMIT 1   [ RunTime:0.000698s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,25,1,0) [ RunTime:0.000519s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 41 ) LIMIT 1   [ RunTime:0.000558s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,41,2,25) [ RunTime:0.000496s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 42 ) LIMIT 1   [ RunTime:0.000887s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,42,3,41) [ RunTime:0.000913s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 43 ) LIMIT 1   [ RunTime:0.001011s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,43,3,41) [ RunTime:0.000581s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 44 ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,44,3,41) [ RunTime:0.000506s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 45 ) LIMIT 1   [ RunTime:0.000520s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,45,3,41) [ RunTime:0.000481s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 46 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,46,3,41) [ RunTime:0.000606s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 51 ) LIMIT 1   [ RunTime:0.000511s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,51,3,41) [ RunTime:0.000499s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 33 ) LIMIT 1   [ RunTime:0.000498s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,33,2,25) [ RunTime:0.000472s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 36 ) LIMIT 1   [ RunTime:0.000534s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,36,3,33) [ RunTime:0.000491s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 38 ) LIMIT 1   [ RunTime:0.000497s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,38,3,33) [ RunTime:0.000466s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 39 ) LIMIT 1   [ RunTime:0.000506s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,39,3,33) [ RunTime:0.000469s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 37 ) LIMIT 1   [ RunTime:0.000490s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,37,3,33) [ RunTime:0.000647s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 35 ) LIMIT 1   [ RunTime:0.000647s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,35,3,33) [ RunTime:0.000573s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 34 ) LIMIT 1   [ RunTime:0.000524s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,34,3,33) [ RunTime:0.000505s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 26 ) LIMIT 1   [ RunTime:0.000503s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,26,2,25) [ RunTime:0.000484s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 27 ) LIMIT 1   [ RunTime:0.000626s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,27,3,26) [ RunTime:0.000500s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 32 ) LIMIT 1   [ RunTime:0.001464s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,32,3,26) [ RunTime:0.000689s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 31 ) LIMIT 1   [ RunTime:0.000590s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,31,3,26) [ RunTime:0.000519s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 30 ) LIMIT 1   [ RunTime:0.000527s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,30,3,26) [ RunTime:0.000497s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 29 ) LIMIT 1   [ RunTime:0.000510s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,29,3,26) [ RunTime:0.000485s ]
+SQL: SELECT `pid` FROM `ts_node` WHERE ( `id` = 28 ) LIMIT 1   [ RunTime:0.001048s ]
+SQL: INSERT INTO `ts_access` (`role_id`,`node_id`,`level`,`pid`) VALUES (1,28,3,26) [ RunTime:0.000599s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.013066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.013308s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.000800s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000810s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000624s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000957s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003627s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.001088s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001248s ]
+
+[ 2014-04-15T20:37:32+08:00 ] 127.0.0.1 /Admin/Rbac/modifyAcess/id/1
+INFO: [ route_check ] --START--
+INFO: CheckRoute Behavior ::run [ RunTime:0.001947s ]
+INFO: [ route_check ] --END-- [ RunTime:0.002322s ]
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.002282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002567s ]
+SQL: SHOW COLUMNS FROM `ts_role` [ RunTime:0.004579s ]
+SQL: SELECT `remark` FROM `ts_role` WHERE ( `id` = 1 ) LIMIT 1   [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `ts_node` [ RunTime:0.004754s ]
+SQL: SELECT `id`,`name`,`pid`,`title` FROM `ts_node` ORDER BY sort  [ RunTime:0.000860s ]
+SQL: SHOW COLUMNS FROM `ts_access` [ RunTime:0.006402s ]
+SQL: SELECT `node_id` FROM `ts_access` WHERE ( `role_id` = 1 )  [ RunTime:0.000972s ]
+INFO: [ view_parse ] --START--
+INFO: ParseTemplate Behavior ::run [ RunTime:0.019882s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020061s ]
+INFO: [ view_filter ] --START--
+INFO: ContentReplace Behavior ::run [ RunTime:0.001187s ]
+INFO: TokenBuild Behavior ::run [ RunTime:0.000774s ]
+INFO: WriteHtmlCache Behavior ::run [ RunTime:0.000601s ]
+INFO: ShowRuntime Behavior ::run [ RunTime:0.000869s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.003838s ]
+INFO: [ view_end ] --START--
+INFO: ShowPageTrace Behavior ::run [ RunTime:0.000969s ]
+INFO: [ view_end ] --END-- [ RunTime:0.001108s ]
+

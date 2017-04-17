@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>添加角色</title>
+<link href="__PUBLIC__/css/node.css" type="text/css" rel="stylesheet"/>
+<script type="text/javascript" src="__PUBLIC__/js/Jquery/jquery.js"></script>
+<script type="text/javascript" src="__PUBLIC__/js/checkbox.js"></script>
+<script type="text/javascript">
+	
+</script>
+</head>
+
+<body>
+<div class="allbox">
+	<form method="post" action="<{:U('Admin/Rbac/accessHandle')}>" name="form1">
+		<div class="addimg"> <{$roleName}>权限</div>	
+		<div class="app">
+			<foreach name="list" item="app">
+				<div class="actionadd">
+				
+					<p>
+						<b><{$app['title']}></b>
+						<input type="checkbox" name="access[]" value="<{$app['id']}>_1" class="level1" <if condition='$app["access"] eq 1'>checked="checked"</if> />
+					</p>
+					<foreach name="app.child" item="action">
+					<div class="action">
+						
+							<div class="actionbox">
+								<{$action['title']}>
+								
+									<input type="checkbox"   value="<{$action['id']}>_2" class="level2"  name="access[]" <if condition='$action["access"] eq 1'> checked="checked" </if> />
+								
+							</div>
+							<foreach name="action.child" item="method">
+								<div class="method"><{$method['title']}>
+								
+									<input type="checkbox"  value="<{$method['id']}>_3" class="level3" name="access[]"   <if condition='$method["access"] eq 1'>checked="checked"</if> /> 
+								
+								</div>
+							</foreach>
+						
+					</div>
+					</foreach>
+					
+				</div>
+			</foreach>
+		</div>
+		<input type="hidden" name="role_id" value="<{$rid}>"/>
+		<input type="submit" value="确定" class="mod"/><input type="button" value="返回" onclick="window.history.go(-1)"/>
+	</form>
+	</div>
+</body>
+</html>
+

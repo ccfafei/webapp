@@ -1,0 +1,17 @@
+[ 2013-11-09T11:38:28+08:00 ] 127.0.0.1 /Admin/Login/loginchk
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-11-09T17:32:48+08:00 ] 127.0.0.1 /Admin/Login/loginchk
+NOTIC: 建议使用I方法替代_post
+NOTIC: 建议使用I方法替代_post
+
+[ 2013-11-09T17:33:04+08:00 ] 127.0.0.1 /Admin/Index/checkname
+INFO: [ app_begin ] --START--
+INFO: ReadHtmlCache Behavior ::run [ RunTime:0.000109s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000142s ]
+NOTIC: 建议使用I方法替代_post
+SQL: SHOW COLUMNS FROM `ts_user` [ RunTime:0.002448s ]
+SQL: SELECT * FROM `ts_user` WHERE ( `username` = 'afei' )  [ RunTime:0.001226s ]
+NOTIC: [8] Undefined variable: result D:\Program Files\Zend\Apache2\htdocs\myApp\Hostpital\Lib\Action\Admin\IndexAction.class.php 第 149 行.
+
